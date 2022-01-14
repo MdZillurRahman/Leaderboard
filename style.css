@@ -148,6 +148,33 @@ height: 104px;
 }
 
 @media only screen and (max-width: 688px) {
+    nav{
+        height: 45px;
+        padding: 5px 20px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+    }
+    nav .logo-name, .info-picture{
+        display: flex;
+        align-items: center;
+    }
+    .idea{
+        font-size: 10px;
+        margin-left: 3px;
+    }
+    .logo{
+        width: 41px;
+    height: 51px;
+    }
+    nav a{
+        text-decoration: none;
+        margin: 0 5px;
+    }
+    .pro-pic{
+        width: 51px;
+    height: 51px;
+    }
     .container{
         width: 95%;
     }
