@@ -4,6 +4,36 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
 }
+nav{
+    background-color: #562EFF;
+    height: 40px;
+    padding: 26px 200px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+nav .logo-name, .info-picture{
+    display: flex;
+    align-items: center;
+}
+.idea{
+    font-size: 24px;
+    color: white;
+    margin-left: 10px;
+}
+.logo{
+    width: 41px;
+height: 51px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+}
+.pro-pic{
+    width: 51px;
+height: 51px;
+}
 main{
     display: flex;
     align-items: center;
@@ -91,6 +121,9 @@ hr{
     display: flex;
     align-items: center;
 }
+.course-info span{
+    margin-left: 5px;
+}
 
 
 .fa-star{
@@ -111,7 +144,7 @@ height: 104px;
     color:#FF4A60;
     background-color:#FFE4E8;
     border-radius: 10px;
-    margin-left: 45px;
+    margin-left: 37px;
 }
 
 @media only screen and (max-width: 688px) {
